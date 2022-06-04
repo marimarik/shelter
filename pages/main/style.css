@@ -270,6 +270,8 @@ nav li a:hover {
     font-size: 44px;
     line-height: 130%;
     color: #FFFFFF;
+    padding-left: 12px;
+    /**/
 }
 
 .start-screen-content p {
@@ -279,6 +281,7 @@ nav li a:hover {
     color: #CDCDCD;
     font-size: 15px;
     margin: 2.5rem 0;
+    padding-left: 12px;
     line-height: 160%;
 }
 
@@ -357,7 +360,7 @@ nav li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding: 4.875rem 2.5rem 6.875rem;
+    padding: 4rem 2.5rem 6.875rem;
 }
 
 .pets-content h3 {
@@ -478,7 +481,7 @@ nav li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding: 76px 40px 100px;
+    padding: 70px 40px 100px;
 }
 
 .help-content h3 {
@@ -541,7 +544,8 @@ nav li a:hover {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding: 80px 250px 100px;
+    padding: 80px 250px 70px;
+    /**/
 }
 
 .donation-content {
@@ -616,6 +620,12 @@ nav li a:hover {
 
 }
 
+.donation-dog {
+    margin: 20px auto 40px;
+    /**/
+    /**/
+}
+
 /* Footer */
 
 #contacts {
@@ -650,7 +660,8 @@ nav li a:hover {
     font-size: 35px;
     line-height: 130%;
     letter-spacing: 0.06em;
-    margin: 20px 0;
+    margin: 30px auto;
+    /**/
     color: #FFFFFF;
 }
 
@@ -676,11 +687,18 @@ nav li a:hover {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin: 15px 0;
+    margin: 12px 0;
+    /**/
 }
 
 .footer-map {
-    margin: 25px 0;
+    margin: 0 0 30px;
+    /**/
+}
+
+.footer-dog {
+    margin-top: 10px auto;
+    /**/
 }
 
 
@@ -699,7 +717,7 @@ nav li a:hover {
 
     .start-screen-contents {
         display: block;
-        margin: 40px 100px 0 40px;
+        margin: 10px 100px 0 90px;
     }
 
     .start-screen-content {
@@ -707,16 +725,15 @@ nav li a:hover {
         margin: 60px auto 100px;
     }
 
-    .start-screen-content h2 {
-        text-align: center;
-    }
+
 
     .start-screen-puppy img {
         width: 100%;
+        margin-left: 80px;
     }
 
     .start-screen-content a {
-        margin: 0 auto;
+        margin: 0 0 0 140px;
     }
 
     /* about */
@@ -726,11 +743,7 @@ nav li a:hover {
         width: 437px;
         flex-direction: column-reverse;
         margin: 0 auto;
-        padding: 20px 0 100px;
-    }
-
-    .about-content h3 {
-        text-align: center;
+        padding: 70px 0 100px;
     }
 
     .about-content img {
@@ -739,6 +752,7 @@ nav li a:hover {
 
     .about-text-content {
         color: #4C4C4C;
+        padding-left: 15px;
     }
 
     .about-text-content h3,
@@ -749,11 +763,22 @@ nav li a:hover {
     /* pet */
 
     .pets-content {
-        padding: 70px 30px 130px;
+        padding: 60px 30px 120px;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .pets-content h3 {
         padding-top: 20px;
+        padding-left: 25px;
     }
 
     .woody-card {
@@ -761,22 +786,14 @@ nav li a:hover {
     }
 
     .card {
-        width: 30%;
-        margin-bottom: 70px;
+        width: 40%;
+        margin: 45px 16px;
     }
 
     .card p {
         padding: 30px 0;
     }
 
-    .slider {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
 
     /* about help */
 
@@ -785,8 +802,8 @@ nav li a:hover {
         line-height: 130%;
         letter-spacing: 0.06em;
         text-align: center;
-        margin-top: 10px;
         color: #545454;
+        padding-left: 25px;
     }
 
     .list {
@@ -794,7 +811,7 @@ nav li a:hover {
     }
 
     .list-items-responsive {
-        margin-top: 5px;
+        margin: 50px auto 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -802,26 +819,27 @@ nav li a:hover {
     }
 
     .help-wrapper {
-        margin: 35px 60px;
+        margin: 10px 60px 28px;
         width: 15%;
     }
 
     /* about donation */
 
-    .donation-content {
-        margin: 0 auto;
-        margin-bottom: 60px;
-    }
-
-    .donation-content {
-        text-align: center;
-    }
-
     .donation-contents {
         margin: 0 auto;
         flex-direction: column-reverse;
-        padding: 20px 194px 100px;
+        padding: 20px 194px 40px;
     }
+
+    .donation-content {
+        margin: 40px auto;
+        margin-bottom: 20px;
+    }
+
+    .donation-dog {
+        padding-right: 150px;
+    }
+
 
     /* footer */
 
@@ -833,18 +851,28 @@ nav li a:hover {
     .contact-title {
         justify-content: space-around;
         margin: 0 auto;
+
     }
 
+    .first-header {
+        padding-left: 5px;
+    }
+
+    .second-header {
+        padding-left: 28px;
+    }
+
+
     .footer-wrapper {
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        text-align: center;
     }
 
     .footer-dog {
-        width: 31%;
-        margin: 65px auto 0;
+        width: 40%;
+        margin: 0 auto;
     }
 
     .contact-info {
@@ -858,11 +886,11 @@ nav li a:hover {
 
 @media (max-width: 767px) {
     header {
-        margin: 30px 53px 0 10px;
+        margin: 25px 40px 0 5px;
     }
 
     .main-logo {
-        width: 186px;
+        width: 200px;
     }
 
     nav ul {
@@ -880,7 +908,7 @@ nav li a:hover {
         flex-direction: column;
         position: relative;
         z-index: 3;
-        margin-right: 20px;
+        margin-right: 0 auto;
         cursor: pointer;
     }
 
@@ -939,7 +967,7 @@ nav li a:hover {
 
     .start-screen-contents {
         text-align: center;
-        margin: 42px 10px;
+        margin: 0 auto;
     }
 
     .start-screen-content h2 {
@@ -950,23 +978,24 @@ nav li a:hover {
 
     .start-screen-content p {
         max-width: 300px;
-        margin: 42px auto;
+        margin: 40px auto;
     }
 
     .start-screen-content {
         width: 100%;
-        margin: 60px auto 100px;
+        margin: 52px auto 30px;
     }
 
     .start-screen-content a {
-        max-width: 170px;
+        max-width: 175px;
         font-size: 15px;
-        padding: 15px 45px;
+        margin: 0 auto 70px;
+        padding: 15px 50px;
     }
 
     .start-screen-puppy img {
         width: 260px;
-        margin: 0 0 0 30px;
+        margin: 0 0 0 50px;
     }
 
     /* about */
@@ -992,10 +1021,12 @@ nav li a:hover {
     .about-text-content h3 {
         text-align: center;
         font-size: 25px;
+        padding-top: 35px;
     }
 
     .about-text-content p {
         margin: 5px auto;
+        padding-top: 22px;
         max-width: 270px;
     }
 
@@ -1013,6 +1044,8 @@ nav li a:hover {
         width: 300px;
         font-size: 25px;
         margin: 0 auto;
+        padding: 10px 0 20px 5px;
+
     }
 
     .pets-content a {
@@ -1021,7 +1054,7 @@ nav li a:hover {
 
     .card {
         width: 270px;
-        margin: 42px auto 20px;
+        margin: 20px auto 15px;
     }
 
     .slider {
@@ -1035,7 +1068,7 @@ nav li a:hover {
 
     .arrow {
         margin-top: 0;
-        margin-bottom: 42px;
+        margin-bottom: 55px;
     }
 
     .slider-arrows {
@@ -1049,7 +1082,8 @@ nav li a:hover {
     /* about help */
 
     .help-content {
-        padding: 42px 0;
+        padding: 30px 0 10px 0;
+
     }
 
     .help-content h3 {
@@ -1059,14 +1093,13 @@ nav li a:hover {
     }
 
     .list-items-responsive {
-        margin-top: 12px;
+        margin-top: 0 auto;
         justify-content: flex-start;
         width: 290px;
-        margin: 0 auto;
     }
 
     .help-wrapper {
-        margin: 20px auto;
+        margin: 7px auto;
         width: 50%;
     }
 
@@ -1076,7 +1109,7 @@ nav li a:hover {
     }
 
     .help-wrapper:last-child {
-        margin: 12px 0;
+        margin: 30px 0;
     }
 
     /* about donation */
@@ -1084,12 +1117,11 @@ nav li a:hover {
     .donation-contents {
         margin: 0 auto;
         flex-direction: column-reverse;
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     .donation-content {
-        margin: 0 auto;
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
 
     .donation-content h3 {
@@ -1100,8 +1132,9 @@ nav li a:hover {
 
     .donation-content h4 {
         width: 273px;
-        margin: 20px auto;
-        font-size: 15px;
+        margin: 25px auto;
+        font-size: 13px;
+        padding-left: 15px;
     }
 
     .credit-card {
@@ -1125,7 +1158,7 @@ nav li a:hover {
 
     .donation-dog {
         width: 260px;
-        margin: 0 auto;
+        margin: 0 0 0 25px;
     }
 
     /* footer */
@@ -1159,16 +1192,26 @@ nav li a:hover {
     .contact img {
         width: 40px;
         height: 26px;
-        margin-right: 20px;
+        margin-right: 10px;
+    }
+
+    .first-title {
+        padding-left: 30px;
+    }
+
+    .second-title {
+        padding: 0;
+
+    }
+
+    .footer-map {
+        margin: 0;
+        padding: 0;
     }
 
     .footer-dog {
         width: 260px;
         margin: 0 auto;
-    }
-
-    .footer-map {
-        margin-left: 15px;
     }
 
 }
