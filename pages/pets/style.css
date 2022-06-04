@@ -286,7 +286,7 @@ nav li a:hover {
     text-align: center;
     letter-spacing: 0.06em;
     color: #545454;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
 }
 
 .slider {
@@ -304,6 +304,7 @@ nav li a:hover {
     background-color: #FAFAFA;
     border-radius: 9px;
     margin-bottom: 25px;
+    padding-left: 15px;
     cursor: pointer;
 }
 
@@ -320,7 +321,8 @@ nav li a:hover {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    padding: 30px 98px;
+    padding: 37px 98px 30px;
+
     color: #545454;
     font-size: 20px;
     line-height: 23px;
@@ -341,7 +343,7 @@ nav li a:hover {
 }
 
 .navigation {
-    margin: 25px auto 0;
+    margin: 20px auto 0;
 }
 
 .navigation button:nth-child(3) {
@@ -357,7 +359,7 @@ nav li a:hover {
     border: 2px solid #F1CDB3;
     border-radius: 50%;
     padding: 16px 22px;
-    margin: 3px 5px;
+    margin: 0 5px;
 }
 
 .navigation button:hover {
@@ -381,7 +383,7 @@ nav li a:hover {
     background: linear-gradient(to right, #5B483A, #262425, #211F20);
     height: auto;
     width: 100%;
-    margin-top: -5px;
+    margin: 0 auto;
 }
 
 .footer-content {
@@ -390,7 +392,7 @@ nav li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 40px;
+    padding: 0 40px;
     padding-bottom: 0;
 }
 
@@ -398,6 +400,10 @@ nav li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.second-title {
+    padding-right: 20px;
 }
 
 .contact-title {
@@ -457,13 +463,23 @@ nav li a:hover {
     }
 
     /* pets */
+    #contacts {
+        height: auto;
+        width: 100%;
+        margin-top: -5px;
+    }
+
 
     .pets-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 120px auto 0;
-        padding: 80px 40px 100px;
+        padding: 80px 50px 80px;
+    }
+
+    .pets-content h3 {
+        padding-left: 15px;
     }
 
     .scarlett-card,
@@ -473,11 +489,16 @@ nav li a:hover {
 
     .card {
         width: 40%;
-        margin-bottom: 30px;
+        margin: 0 0 30px;
     }
 
     .slider {
         justify-content: space-evenly;
+
+    }
+
+    .navigation {
+        margin: 10px auto 0;
     }
 
     /* footer */
@@ -487,15 +508,17 @@ nav li a:hover {
         flex-direction: column;
     }
 
-    .contact-title {
-        justify-content: space-around;
-        margin: 0 auto;
-    }
-
     .footer-wrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+
+    .contact-title {
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-left: 40px;
     }
 
     .contact-info {
@@ -503,15 +526,17 @@ nav li a:hover {
     }
 
     .footer-dog {
-        width: 31%;
-        margin: 65px auto 0;
+        width: 45%;
+        margin: 25px auto 0;
     }
 }
+
 
 @media (max-width: 767px) {
     header {
         position: static;
-        margin: 30px 53px 0 10px;
+        margin: 0 auto;
+        padding: 30px 0 0 12px;
     }
 
     .main-logo {
@@ -594,12 +619,14 @@ nav li a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 120px auto 0;
+        margin: 20px auto 0;
         padding: 42px 0;
     }
 
     .pets-content h3 {
         font-size: 25px;
+        padding-left: 15px;
+
     }
 
     .sophia-card,
@@ -638,7 +665,7 @@ nav li a:hover {
     /* footer section  */
 
     .footer-content {
-        padding: 0;
+        padding: 15px 0 0 0;
     }
 
     .footer-wrapper {
@@ -656,6 +683,12 @@ nav li a:hover {
 
     .contact-title h3 {
         font-size: 25px;
+        letter-spacing: 0.06em;
+    }
+
+    .contact-info {
+        text-align: center;
+
     }
 
     .contact img {
