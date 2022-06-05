@@ -162,18 +162,19 @@ body {
 
 .header {
     max-width: 1200px;
-    margin: 0 auto;
     height: auto;
+    margin: 0 auto;
 }
 
 /* Header */
+
 header {
     position: static;
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3.75rem 0;
+    margin: 55px 0;
 }
 
 .main-logo {
@@ -200,9 +201,9 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    margin-top: 0.625rem;
     letter-spacing: 0.1em;
     line-height: 1.938em;
+    margin-top: 10px;
 }
 
 #burger,
@@ -211,11 +212,13 @@ header {
 }
 
 nav {
-    margin: 1.25rem 0 1.25rem 1.25rem;
+    margin: 20px;
+    margin-right: 0;
 }
 
 nav ul {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
@@ -259,8 +262,8 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     width: 39%;
-    margin-top: 10rem;
     line-height: 150%;
+    margin-top: 10rem;
 }
 
 .start-screen-content h2 {
@@ -270,8 +273,6 @@ nav li a:hover {
     font-size: 44px;
     line-height: 130%;
     color: #FFFFFF;
-    padding-left: 12px;
-    /**/
 }
 
 .start-screen-content p {
@@ -280,9 +281,8 @@ nav li a:hover {
     font-weight: 400;
     color: #CDCDCD;
     font-size: 15px;
-    margin: 2.5rem 0;
-    padding-left: 12px;
     line-height: 160%;
+    margin: 42px 0;
 }
 
 .start-screen-content a {
@@ -291,21 +291,22 @@ nav li a:hover {
     font-weight: 400;
     color: #292929;
     background-color: #F1CDB3;
-    padding: 14px 14px;
     width: 38%;
     border-radius: 100px;
     font-size: 17px;
     letter-spacing: 0.06em;
     text-align: center;
     transition-duration: 0.2s;
+    padding: 14px 14px;
 }
 
 .start-screen-puppy img {
-    margin-left: 1.875rem;
+    margin-left: 30px;
     height: 100%;
 }
 
 /* About */
+
 #about {
     height: auto;
     background-color: #FFFFFF;
@@ -314,19 +315,20 @@ nav li a:hover {
 
 .about-content {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 5rem 2.5rem 6.25rem;
     display: flex;
     justify-content: center;
+    padding: 80px 40px 100px;
+    margin: 0 auto;
+
 }
 
 .about-content img {
-    margin: 0 7.5rem 0 10.9rem
+    margin: 0 120px 0 175px;
 }
 
 .about-text-content {
     color: #4C4C4C;
-    margin-top: 0.625rem;
+    margin-top: 10px;
 }
 
 .about-text-content h3 {
@@ -334,7 +336,7 @@ nav li a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
-    margin-right: 3.75rem;
+    margin-right: 60px;
     line-height: 130%;
     letter-spacing: 0.06em;
 }
@@ -345,11 +347,12 @@ nav li a:hover {
     font-weight: 400;
     font-size: 15px;
     width: 70%;
-    margin-top: 1.5625rem;
     line-height: 160%;
+    margin-top: 25px;
 }
 
 /* Pet */
+
 #pets {
     height: auto;
     background-color: #F6F6F6;
@@ -360,7 +363,7 @@ nav li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding: 4rem 2.5rem 6.875rem;
+    padding: 70px 40px 110px;
 }
 
 .pets-content h3 {
@@ -376,8 +379,8 @@ nav li a:hover {
 .slider {
     display: flex;
     flex-direction: row;
-    margin-top: 0.625rem;
-    margin-bottom: 1.25rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .slider-responsive {
@@ -390,7 +393,7 @@ nav li a:hover {
     justify-content: center;
     border-radius: 9px;
     background-color: #FAFAFA;
-    margin: 2.875rem;
+    margin: 46px;
     cursor: pointer;
 }
 
@@ -406,17 +409,18 @@ nav li a:hover {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
-    padding: 30px 98px;
     color: #545454;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.06em;
+    padding: 30px 98px;
 }
 
 .card button {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
+    color: #292929;
     border: 2px solid #F1CDB3;
     border-radius: 100px;
     background-color: #FAFAFA;
@@ -426,7 +430,6 @@ nav li a:hover {
     line-height: 130%;
     margin: 0 auto;
     margin-bottom: 35px;
-    color: #292929;
     cursor: pointer;
 }
 
@@ -447,7 +450,6 @@ nav li a:hover {
     background-color: #fce0cd;
     transition-duration: 0.5s;
     border: 0.15rem solid #F1CDB3;
-
 }
 
 .arrow {
@@ -456,12 +458,12 @@ nav li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 23px 19px;
-    margin-top: 240px;
     width: 52px;
     height: 52px;
     border: 2px solid #F1CDB3;
     border-radius: 50%;
+    padding: 23px 19px;
+    margin-top: 240px;
 }
 
 .arrow:hover {
@@ -533,6 +535,7 @@ nav li a:hover {
 }
 
 /* About donate */
+
 #donation {
     height: auto;
     background-color: #F6F6F6;
@@ -544,8 +547,7 @@ nav li a:hover {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    padding: 80px 250px 70px;
-    /**/
+    padding: 85px 250px 70px;
 }
 
 .donation-content {
@@ -581,10 +583,11 @@ nav li a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    color: #545454;
     line-height: 115%;
     letter-spacing: 0.06em;
     margin-left: 15px;
-    color: #545454;
+
 }
 
 .credit-card-content a {
@@ -622,8 +625,6 @@ nav li a:hover {
 
 .donation-dog {
     margin: 20px auto 40px;
-    /**/
-    /**/
 }
 
 /* Footer */
@@ -688,24 +689,22 @@ nav li a:hover {
     flex-direction: row;
     text-align: center;
     margin: 12px 0;
-    /**/
 }
 
 .footer-map {
     margin: 0 0 30px;
-    /**/
+
 }
 
 .footer-dog {
     margin-top: 10px auto;
-    /**/
 }
 
-
 @media (max-width: 1279px) {
+
     header {
         max-width: 1200px;
-        margin: 30px;
+        margin: 25px;
     }
 
     #burger,
@@ -713,11 +712,11 @@ nav li a:hover {
         display: none;
     }
 
-    /* start */
+    /* Not only */
 
     .start-screen-contents {
         display: block;
-        margin: 10px 100px 0 90px;
+        margin: 60px 100px 0 110px;
     }
 
     .start-screen-content {
@@ -725,25 +724,23 @@ nav li a:hover {
         margin: 60px auto 100px;
     }
 
-
+    .start-screen-content a {
+        margin: 0 0 0 140px;
+    }
 
     .start-screen-puppy img {
         width: 100%;
-        margin-left: 80px;
-    }
-
-    .start-screen-content a {
-        margin: 0 0 0 140px;
+        margin: 0 0 -5px 80px;
     }
 
     /* about */
 
     .about-content {
-        display: flex;
         width: 437px;
-        flex-direction: column-reverse;
         margin: 0 auto;
-        padding: 70px 0 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 80px 0 100px;
     }
 
     .about-content img {
@@ -752,7 +749,8 @@ nav li a:hover {
 
     .about-text-content {
         color: #4C4C4C;
-        padding-left: 15px;
+        width: 100%;
+
     }
 
     .about-text-content h3,
@@ -763,22 +761,16 @@ nav li a:hover {
     /* pet */
 
     .pets-content {
-        padding: 60px 30px 120px;
+        padding: 82px 30px 100px;
     }
 
     .slider {
         display: flex;
-        flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
         width: 100%;
-        margin-top: 10px;
+        margin-top: 15px;
         margin-bottom: 20px;
-    }
-
-    .pets-content h3 {
-        padding-top: 20px;
-        padding-left: 25px;
     }
 
     .woody-card {
@@ -786,8 +778,7 @@ nav li a:hover {
     }
 
     .card {
-        width: 40%;
-        margin: 45px 16px;
+        margin: 40px 16px;
     }
 
     .card p {
@@ -797,13 +788,17 @@ nav li a:hover {
 
     /* about help */
 
+    .help-content {
+        padding: 45px 40px 70px;
+    }
+
     .help-content h3 {
         font-size: 35px;
         line-height: 130%;
         letter-spacing: 0.06em;
-        text-align: center;
         color: #545454;
-        padding-left: 25px;
+        margin-top: 64px;
+        margin-bottom: 45px;
     }
 
     .list {
@@ -811,7 +806,7 @@ nav li a:hover {
     }
 
     .list-items-responsive {
-        margin: 50px auto 0;
+        margin-top: 5px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -819,8 +814,8 @@ nav li a:hover {
     }
 
     .help-wrapper {
-        margin: 10px 60px 28px;
-        width: 15%;
+        margin: 19px 60px;
+        width: 14%;
     }
 
     /* about donation */
@@ -828,16 +823,17 @@ nav li a:hover {
     .donation-contents {
         margin: 0 auto;
         flex-direction: column-reverse;
-        padding: 20px 194px 40px;
+        padding: 90px 0 40px;
     }
 
     .donation-content {
-        margin: 40px auto;
-        margin-bottom: 20px;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 
-    .donation-dog {
-        padding-right: 150px;
+    #donation-dog {
+        width: 505px;
+        margin-left: 130px;
     }
 
 
@@ -846,6 +842,7 @@ nav li a:hover {
     .footer-content {
         display: flex;
         flex-direction: column;
+        padding-top: 10px
     }
 
     .contact-title {
@@ -854,25 +851,16 @@ nav li a:hover {
 
     }
 
-    .first-header {
-        padding-left: 5px;
-    }
-
-    .second-header {
-        padding-left: 28px;
-    }
-
-
     .footer-wrapper {
-        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
     .footer-dog {
-        width: 40%;
-        margin: 0 auto;
+        width: 300px;
+        margin: 25px auto 0;
+
     }
 
     .contact-info {
@@ -880,12 +868,15 @@ nav li a:hover {
     }
 
     .footer-map {
-        margin: 20px 0;
+        margin: 20px 20px 0 0;
+        /*for right side*/
     }
 }
 
 @media (max-width: 767px) {
+
     header {
+        width: 95%;
         margin: 25px 40px 0 5px;
     }
 
@@ -898,7 +889,6 @@ nav li a:hover {
     }
 
     header .main-logo.hide {
-        /*new*/
         /*hide and display(toggle) main logo.*/
         opacity: 0;
     }
@@ -908,8 +898,8 @@ nav li a:hover {
         flex-direction: column;
         position: relative;
         z-index: 3;
-        margin-right: 0 auto;
         cursor: pointer;
+        margin-right: 0 auto;
     }
 
     #burger.rotate {
@@ -926,9 +916,9 @@ nav li a:hover {
         right: -320px;
         width: 0px;
         height: 100%;
-        padding-top: 20px;
         background-color: rgba(0, 0, 0, 0.833);
         transition: 400ms all cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        padding-top: 20px;
     }
 
     .burger-menu .main-logo,
@@ -953,8 +943,8 @@ nav li a:hover {
     }
 
     .burger-menu li {
-        margin-bottom: 45px;
         text-align: center;
+        margin-bottom: 45px;
     }
 
     .burger-menu li a {
@@ -1002,15 +992,15 @@ nav li a:hover {
 
     .about-content {
         max-width: 320px;
-        margin: 0 auto;
         display: flex;
         flex-direction: column-reverse;
+        margin: 0 auto;
         padding: 0 0 42px;
     }
 
     .about-content img {
-        margin: 20px auto 0;
         width: 260px;
+        margin: 20px auto 0;
     }
 
     .about-text-content {
@@ -1025,9 +1015,9 @@ nav li a:hover {
     }
 
     .about-text-content p {
+        max-width: 270px;
         margin: 5px auto;
         padding-top: 22px;
-        max-width: 270px;
     }
 
     /* pets */
@@ -1082,30 +1072,29 @@ nav li a:hover {
     /* about help */
 
     .help-content {
-        padding: 30px 0 10px 0;
+        padding: 50px 0 10px 0;
 
     }
 
     .help-content h3 {
-        margin: 0 auto;
         font-size: 25px;
         width: 225px;
+        margin: 0 auto;
     }
 
     .list-items-responsive {
-        margin-top: 0 auto;
         justify-content: flex-start;
         width: 290px;
+        margin-top: 45px;
     }
 
     .help-wrapper {
-        margin: 7px auto;
-        width: 50%;
+        margin: 5px auto;
+        width: 45%;
     }
 
     .help-wrapper p {
         font-size: 15px;
-
     }
 
     .help-wrapper:last-child {
@@ -1115,8 +1104,8 @@ nav li a:hover {
     /* about donation */
 
     .donation-contents {
-        margin: 0 auto;
         flex-direction: column-reverse;
+        margin: 0 auto;
         padding: 30px 0;
     }
 
@@ -1132,9 +1121,9 @@ nav li a:hover {
 
     .donation-content h4 {
         width: 273px;
-        margin: 25px auto;
         font-size: 13px;
         padding-left: 15px;
+        margin: 25px auto;
     }
 
     .credit-card {
@@ -1152,8 +1141,8 @@ nav li a:hover {
 
     .credit-card h4 {
         width: 280px;
-        margin: 0 auto;
         text-align: justify;
+        margin: 0 auto;
     }
 
     .donation-dog {
