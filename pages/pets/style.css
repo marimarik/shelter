@@ -532,6 +532,7 @@ nav li a:hover {
 
 @media (max-width: 767px) {
     header {
+        width: 95%;
         position: static;
         margin: 0 auto;
         padding: 30px 0 0 12px;
